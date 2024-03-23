@@ -1,0 +1,141 @@
+body {
+    margin-top: 15px;
+}
+
+.header {
+    position: relative;
+    margin-left: 50px;
+    margin-right: 80px;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-logos {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-right: 120px;
+}
+
+.header-logo {
+    width: 45px;
+}
+
+
+#logo-planet {
+    width: 90px;
+    margin-right: 40px;
+    margin-left: 90px;
+
+}
+
+.container {
+    width: 700px;
+    height: 60px;
+    margin-top: 10px; 
+  }
+  
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.search-field {
+    width: 100%;
+    padding: 10px 35px 10px 15px;
+    border-color: rgba(0, 0, 0, 1);
+    border-radius: 100px 100px;
+    outline: none;
+}
+  
+.search-button {
+    background: transparent;
+    border: black;
+    outline: none;
+}
+  
+.search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+  }
+ 
+.categories-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 60px;
+    align-items: center;
+    list-style: none;
+    background-color: rgba(63, 82, 99, 1);
+    height: 50px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.category-item {
+    margin-right: 60px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    width: 1000px;
+}
+
+.gallery div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#leftBtn, #rightBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+
+}
+
+.product {
+    text-align: justify;
+    width: 230px;
+    margin-left: 50px;
+}
+
+.title-products {
+    margin-left: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
